@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+
+<meta charset="UTF-8"/>
+
+<title>Service</title>
+
+<meta name="description" content="Chinese Foods">
+
+<meta name="author" content="FlyingSnowFlakes">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/font-awesome.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/styles.css">
+
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+ 
+</head>
+<body>
+<!--wrapper start-->
+<div class="wrapper">
+	<div class="menu">
+		<nav class="navbar navbar-wrapper"> 
+      <div class="container">
+            <div class="navbar-header">
+        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        </div>
+	    <div id="main-nav" class="collapse navbar-collapse">
+			 <ul class="nav navbar-nav">
+			  <li><a href="index.html" class="scroll-link">Home</a></li>
+			  <li><a href="service.html" class="scroll-link">Our Services</a></li>
+			  <li><a href="gallery.html" class="scroll-link">Gallery</a></li>
+			  <li><a href="contact.html" class="scroll-link">Contact</a></li>
+			</ul>
+      </div>
+      </div>  
+		</nav>
+	</div>		
+	</header>
+
+	<section class="contact page-section" id="contact">
+	<div class="container">
+		<div class="heading">
+				
+				<h2>Contact Us</h2>
+				
+				<h3>Phasellus non dolor nibh. Nullam elementum tellus pretium feugiat.<br>
+				 Cras dictum tellus dui, vitae sollicitudin ipsum tincidunt in. Sed tincidunt tristique enim sed sollcitudin.</h3>
+		</div>
+	</div>
+	 <div class="container w960">
+      <div class="row">
+		<div class="done">
+			<div class="alert alert-success">
+				<button type="button" class="close" data-dismiss="alert">×</button>
+				Your message has been sent. Thank you!
+			</div>
+		</div>
+       <form method="post" action="contact.php" id="contactform">
+          <input name="name" type="text" class="contact col-md-6" placeholder="Your Name *" >
+          <input name="email" type="email" class="contact noMarr col-md-6" placeholder="E-mail address *" >
+          <textarea name="comment" class="contact col-md-12" placeholder="Message *"></textarea>
+          <input type="submit" id="submit" class="contact submit" value="Send message">
+        </form>
+      </div>
+    </div>
+	</section>
+  
+	<!--footer-->
+	<section class="footer" id="footer">
+	<p class="text-center">
+		<a href="#header" class="gototop"><i class="fa fa-angle-double-up fa-2x"></i></a>
+	</p>
+	<div class="container">
+		<ul>
+			<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+			<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+			<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+			<li><a href="#"><i class="fa fa-flickr"></i></a></li>
+		</ul>
+		<p>
+			&copy; 2020 Copyright by FlyingSnowFlakes Team
+		</p>
+	</div>
+	</section>
+	
+</div><!--wrapper end-->
+
+<script type="text/javascript">
+jQuery(function($) {
+$(document).ready( function() {
+	$('.navbar-wrapper').stickUp();
+	});
+});
+</script>
+</body>
+</html>
