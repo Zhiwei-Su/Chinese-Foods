@@ -22,7 +22,7 @@ jQuery(document).ready(function ($) {
 		if (email.val()=='') {
 			email.addClass('error');
 			returnError = true;
-		} else email.removeClass('error');		
+		} else email.removeClass('error');
 		
 		if(!regx.test(email.val())){
           email.addClass('error');
@@ -66,17 +66,7 @@ jQuery(document).ready(function ($) {
 			
 			//success
 			success: function (html) {				
-				//if contact.php returned 1/true (send mail success)
-				// if (html==1) {
-				//
-				// 	//show the success message
-				// 	$('.done').fadeIn('slow');
-				//
-				// 	$(".form").find('input[type=text], textarea').val("");
-				//
-				// //if contact.php returned 0/false (send mail failed)
-				// } else alert('Sorry, unexpected error. Please try again later.');
-
+				
 				alert('Thank you! We have received your message.');
 			}		
 		});
