@@ -16,6 +16,23 @@ body {
   overflow-x: hidden;
 }
 
+/*###background color for different slides*/
+#service1{
+  background-color: #F5F6EE;
+}
+
+#gallery1{
+  background-color: #FEF9EF;
+}
+
+#contact1{
+  background-color: #FEF9EF;
+}
+
+#ref1{
+  background-color: #FEF9EF;
+}
+
 #dishes{
   background-color: #d1ccb7;
 }
@@ -405,6 +422,8 @@ img {
 .navbar-inverse .navbar-nav>.active>a:hover {
   color: #fff;
 }
+
+
 
 #main-nav ul.nav>li.active>a {
   color: #fff;
