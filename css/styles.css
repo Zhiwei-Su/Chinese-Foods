@@ -1,6 +1,14 @@
+@import 'https://fonts.googleapis.com/css2?family=Noto+Sans+TC';
+@import 'https://fonts.googleapis.com/css?family=Comfortaa';
+@import 'https://fonts.googleapis.com/css?family=Rowdies';
+@import 'https://fonts.googleapis.com/css?family=B612';
+@import 'https://fonts.googleapis.com/css?family=Cairo';
+@import 'https://fonts.googleapis.com/css?family=Bree+Serif';
+@import 'https://fonts.googleapis.com/css?family=Permanent+Marker';
+
 /*------General----------*/
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: Comfortaa;
   font-size: 16px;
   line-height: 1.7;
   color: #777;
@@ -8,15 +16,39 @@ body {
   overflow-x: hidden;
 }
 
+#dishes{
+  background-color: #d1ccb7;
+}
+
 h1,h2,h3,h4,h5,h6 {
   color: #333;
   line-height: 1.4;
   font-weight: 700;
-  font-family: 'Droid Sans', sans-serif;
 }
 
+h1 {
+  font-family: "Bree Serif";
+}
+
+h2 {
+  font-family: Cairo;
+}
+
+
 h3 {
-  font-family: 'Open Sans', sans-serif;
+    font-family: Cairo;
+}
+
+h4 {
+    font-family: B612;
+}
+
+h5 {
+  font-family: B612;
+}
+
+h6 {
+  font-family: B612;
 }
 
 .w960 {
@@ -32,7 +64,7 @@ a,a:hover {
 img {
   max-width: 100%;
 }
- 
+
 
 /********************************/
 /*       Fade Bs-carousel       */
@@ -135,12 +167,12 @@ img {
   background-color: #080d15;
   opacity: .7;
 }
- 
+
 
 /********************************/
 /*       Slides backgrounds     */
 /********************************/
-.fade-carousel .slides .slide-1, 
+.fade-carousel .slides .slide-1,
 .fade-carousel .slides .slide-2,
 .fade-carousel .slides .slide-3 {
   height: 100vh;
@@ -220,7 +252,7 @@ img {
 
 .item blockquote p:before {
   content: "\f10d";
-  font-family: 'Fontawesome';
+  font-family: 'Permanent Marker';
   float: left;
   margin-right: 10px;
 }
@@ -321,8 +353,8 @@ img {
   padding: 22px 15px;
   font-size: 17px;
   font-weight: 500;
-  font-family: 'Droid Sans', sans-serif;
-} 
+  font-family: B612;
+}
 .navbar-wrapper {
   margin-top: 0px;
   height: 65px;
@@ -347,7 +379,7 @@ img {
   background: none;
   color: #c3c8d6;
   border: none;
-  font-family: 'Open Sans',sans-serif;
+    font-family: B612;
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
@@ -413,7 +445,7 @@ img {
   -moz-transition: all .5s;
   -webkit-transition: all .5s;
   transition: all .5s;
-} 
+}
 
 
 /*------Intro----------*/
@@ -425,7 +457,7 @@ header {
   line-height: 1.0;
   font-weight: 900;
   color: #fff;
-} 
+}
 /*-----------Heading-------------*/
 .heading {
   padding-bottom: 15px;
@@ -455,8 +487,8 @@ header {
 img#site-title {
   max-width: 150px;
 }
- 
- 
+
+
 /*------- 	Gallery Events-------------*/
 /* General style */
 .grid-gallery ul {
@@ -645,7 +677,7 @@ img#site-title {
 }
 
 .icon:before,.icon:after {
-  font-family: 'fontawesome';
+  font-family: 'Permanet Marker';
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -924,11 +956,11 @@ blockquote footer, blockquote small, blockquote .small {
 
 .page-section {
   padding: 80px 0;
-}	
+}
 
 /**
   MEDIA QUERIES
---------------------------------*/ 
+--------------------------------*/
 @media screen and (min-width: 980px) {
   .hero {
     width: 980px;
@@ -936,7 +968,7 @@ blockquote footer, blockquote small, blockquote .small {
 }
 
 @media (max-width: 768px) {
-          
+
   #quote-carousel .carousel-indicators {
     bottom: -20px !important;
   }
@@ -962,7 +994,7 @@ blockquote footer, blockquote small, blockquote .small {
 }
 
 @media screen and (max-width:960px) {
- 
+
   .grid li {
     width: 33.3%;
   }
@@ -1003,7 +1035,7 @@ blockquote footer, blockquote small, blockquote .small {
 }
 
 @media screen and (max-width:768px) {
- 
+
   #main-nav {
     background: #F39C12;
   }
@@ -1019,7 +1051,7 @@ blockquote footer, blockquote small, blockquote .small {
     padding: 18px 15px;
     font-size: 17px;
     font-weight: 500;
-    font-family: 'Droid Sans', sans-serif;
+    font-family: B612;
   }
 }
 
@@ -1053,3 +1085,32 @@ blockquote footer, blockquote small, blockquote .small {
   }
 }
 
+/*foreign fonts*/
+#Chinese
+{
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+/*collapsible for dishes*/
+.collapsible {
+  background-color: #C05D41;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #9d0b2a;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #C9DDBC;
+}
