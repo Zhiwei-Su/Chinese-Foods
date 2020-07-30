@@ -5,7 +5,7 @@ var simplemaps_countrymap_mapdata={
     background_color: "#FFFFFF",
     background_transparent: "yes",
     border_color: "#ffffff",
-    
+
     //State defaults
     state_description: "State description",
     state_color: "#88A4BC",
@@ -14,7 +14,7 @@ var simplemaps_countrymap_mapdata={
     border_size: 1.5,
     all_states_inactive: "no",
     all_states_zoomable: "yes",
-    
+
     //Location defaults
     location_description: "Location description",
     location_url: "",
@@ -29,7 +29,7 @@ var simplemaps_countrymap_mapdata={
     location_hover_border: 2.5,
     all_locations_inactive: "no",
     all_locations_hidden: "no",
-    
+
     //Label defaults
     label_color: "#d5ddec",
     label_hover_color: "#d5ddec",
@@ -37,7 +37,7 @@ var simplemaps_countrymap_mapdata={
     label_font: "Arial",
     hide_labels: "no",
     hide_eastern_labels: "no",
-   
+
     //Zoom settings
     zoom: "yes",
     manual_zoom: "yes",
@@ -50,7 +50,7 @@ var simplemaps_countrymap_mapdata={
     zoom_out_incrementally: "yes",
     zoom_percentage: 0.99,
     zoom_time: 0.5,
-    
+
     //Popup settings
     popup_color: "white",
     popup_opacity: 0.9,
@@ -58,7 +58,7 @@ var simplemaps_countrymap_mapdata={
     popup_corners: 5,
     popup_font: "12px/1.5 Verdana, Arial, Helvetica, sans-serif",
     popup_nocss: "no",
-    
+
     //Advanced settings
     div: "map",
     auto_load: "yes",
@@ -128,7 +128,7 @@ var simplemaps_countrymap_mapdata={
       hover_color: "#D65F14"
     },
     CHN1662: {
-      name: "Xizang",
+      name: "Tibet",
       color: "#F2F0DF",
       description: "The heartland of Tibetian Buddhism, the people enjoy a clean diet from the sacrad mountains in Tibet.",
       hover_color: "#D65F14"
