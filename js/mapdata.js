@@ -130,7 +130,7 @@ var simplemaps_countrymap_mapdata={
     CHN1662: {
       name: "Tibet",
       color: "#F2F0DF",
-      description: "The heartland of Tibetian Buddhism, the people enjoy a clean diet from the sacrad mountains in Tibet.",
+      description: "The heartland of Tibetian Buddhism, the people enjoy a clean diet from the sacred mountains in Tibet.",
       hover_color: "#D65F14"
     },
     CHN1756: {
