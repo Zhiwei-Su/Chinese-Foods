@@ -1,6 +1,7 @@
 # Chinese Foods Website
 This project is building for the class 349!
 
+
 *Credits*
 
 bootstrap.js:
@@ -35,6 +36,7 @@ gridscroll.js:
  /*! jQuery v1.11.1 | (c) 2005, 2014 jQuery Foundation, Inc. | jquery.org/license */
  
  menubar.js:
+/* by Team 7
  
  
  modernizer.js:
@@ -42,6 +44,7 @@ gridscroll.js:
  * Build: http://modernizr.com/download/#-csstransitions-shiv-cssclasses-prefixed-testprop-testallprops-domprefixes-load */
  
  sendmessage.js:
+ /* By Team 7
  
  countrymap.js, mapdata.js:
   /*! Retrieve from simplemaps.com for the map to work !*/
@@ -70,9 +73,13 @@ bootstrap.css:
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  
  styles.css:
+ /* By Team 7
  
  
  theme.css:
+ /* By Team 7
+ 
+ 
  
  
 
