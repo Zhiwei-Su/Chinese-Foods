@@ -1146,6 +1146,38 @@ blockquote footer, blockquote small, blockquote .small {
   color: black;
 }
 
+.collapsible2 {
+  background-color: #fac50f;
+  color: #302D35;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible2:hover {
+  background-color: #F46109;
+}
+
+.content2 {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #A4DCDC;
+  color: black;
+}
+
+
+/* #ref3{
+    background-color: #fac50f;
+}
+
+#ref4{
+    background-color: #C2CD72;
+} */
 
 h3.engchi
 {
