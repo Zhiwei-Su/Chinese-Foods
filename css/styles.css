@@ -1145,3 +1145,17 @@ blockquote footer, blockquote small, blockquote .small {
   background-color: #EE836E;
   color: black;
 }
+
+
+h3.engchi
+{
+  display: inline;
+
+}
+
+.vertical {
+           border-left: 6px solid black;
+           height: 200px;
+           position:absolute;
+           left: 50%;
+       }
