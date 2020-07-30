@@ -1159,3 +1159,30 @@ h3.engchi
            position:absolute;
            left: 50%;
        }
+
+       .previous1 {
+         text-decoration: none;
+         display: inline-block;
+         padding: 8px 16px;
+         background-color: #22C9D2;
+         color: black;
+
+
+       }
+
+       .next1 {
+         text-decoration: none;
+         display: inline-block;
+         padding: 8px 16px;
+         background-color: #323641;
+         color: white;
+
+
+       }
+
+       .containernextpagebutton
+       {  display: flex;
+          justify-content: space-between;
+          position: relative;
+
+       }
