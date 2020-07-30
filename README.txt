@@ -39,9 +39,15 @@ gridscroll.js:
  
  modernizer.js:
  /* Modernizr 2.6.2 (Custom Build) | MIT & BSD
- * Build: http://modernizr.com/download/#-csstransitions-shiv-cssclasses-prefixed-testprop-testallprops-domprefixes-load
+ * Build: http://modernizr.com/download/#-csstransitions-shiv-cssclasses-prefixed-testprop-testallprops-domprefixes-load */
  
  sendmessage.js:
+ 
+ countrymap.js, mapdata.js:
+  /*! Retrieve from simplemaps.com for the map to work !*/
+  
+  
+ 
  
  
 animate.css:
