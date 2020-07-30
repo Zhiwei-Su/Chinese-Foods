@@ -1218,3 +1218,12 @@ h3.engchi
           position: relative;
 
        }
+
+       .btn4map
+       {  text-decoration: none;
+       display: inline-block;
+       padding: 8px 16px;
+       background-color: #51F4ED;
+       color: #643726;
+
+       }
