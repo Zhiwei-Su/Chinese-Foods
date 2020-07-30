@@ -33,9 +33,20 @@ body {
   background-color: #FEF9EF;
 }
 
-#dishes{
+#dishes1{
   background-color: #d1ccb7;
+  color: #2B352F;
 }
+
+#reference{
+  text-align: left;
+}
+
+#dishes{
+
+}
+
+
 
 h1,h2,h3,h4,h5,h6 {
   color: #333;
@@ -1131,5 +1142,6 @@ blockquote footer, blockquote small, blockquote .small {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #C9DDBC;
+  background-color: #EE836E;
+  color: black;
 }

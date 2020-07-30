@@ -12,3 +12,5 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+// the following code is derived from https://www.w3schools.com/howto/howto_js_collapsible.asp
