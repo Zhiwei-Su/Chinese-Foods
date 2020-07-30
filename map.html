@@ -5,7 +5,7 @@
 
 <meta charset="UTF-8"/>
 
-<title>Chinese Foods</title>
+<title>Map</title>
 
 <meta name="description" content="Chinese Foods">
 
@@ -19,58 +19,10 @@
 <link rel="stylesheet" href="css/styles.css">
 
 
+
 </head>
-<body>
+<body  id = "service1">
 <div class="wrapper">
-	<header id="header">
-	<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
-  <div class="overlay"></div>
-
-
-  <ol class="carousel-indicators">
-    <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
-    <li data-target="#bs-carousel" data-slide-to="1"></li>
-    <li data-target="#bs-carousel" data-slide-to="2"></li>
-  </ol>
-
-
-  <div class="carousel-inner">
-    <div class="item slides active">
-      <div class="slide-1"></div>
-      <div class="hero">
-        <hgroup>
-		 <img src="img/home/logo.png" alt="logo" width="150" height="150"/>
-            <h1>Authentic Chinese Food</h1>
-            <h3>Look no more!</h3>
-        </hgroup>
-        <a class="btn btn-hero btn-lg" href="service.html">Take a Look!</a>
-      </div>
-    </div>
-    <div class="item slides">
-      <div class="slide-2"></div>
-      <div class="hero">
-        <hgroup>
-		   <img src="img/home/logo.png" alt="logo" width="150" height="150"/>
-            <h1>Searching for Different Regional Chinese Food?</h1>
-            <h3>Explore our interactive map function to learn more about the regions in China!</h3>
-        </hgroup>
-        <a class="btn btn-hero btn-lg" href="map.html">Explore!</a>
-      </div>
-    </div>
-    <div class="item slides">
-      <div class="slide-3"></div>
-      <div class="hero">
-        <hgroup>
-		 <img src="img/home/logo.png" alt="logo" width="150" height="150"/>
-            <h1>Food & Culture</h1>
-            <h3>Interested to learn about Chinese Culture through food?</h3>
-        </hgroup>
-        <a class="btn btn-hero btn-lg" href="gallery.html">Eat Now!</a>
-      </div>
-    </div>
-  </div>
-
-
 	<div class="menu">
 		<nav class="navbar navbar-wrapper">
       <div class="container">
@@ -89,7 +41,26 @@
       </div>
 		</nav>
 	</div>
-	</header>
+
+
+   <section class="map page-section" id="map1">
+      <div class="container text-center">
+         <div class="heading">
+			<h2>Interactive map of China</h2>
+
+		</div>
+
+
+
+	 <center>   <div id="map"> </center>
+	 </div>
+
+
+
+
+
+      </div>
+    </section>
 
 
 	<section class="footer" id="footer">
@@ -105,13 +76,12 @@
 
 </div>
 
+<!-- mapdata.js and countrymap.js are retrieved from simplemaps.com -->
 
+<script src="js/mapdata.js"></script>
+<script src="js/countrymap.js"></script>
 <script src="js/jquery.js"></script>
-<script src="js/modernizr.js"></script>
-<script src="js/bootstrap.js"></script>
 <script src="js/menubar.js"></script>
-
-
 <script type="text/javascript">
 jQuery(function($) {
 $(document).ready( function() {
