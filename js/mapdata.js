@@ -265,6 +265,8 @@ var simplemaps_countrymap_mapdata={
       description: "Disputed territories, let's not talk about it",
       hover_color: "#D65F14"
     }
+
+
   },
   locations: {
     "0": {
