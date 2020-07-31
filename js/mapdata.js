@@ -77,7 +77,7 @@ var simplemaps_countrymap_mapdata={
       color: "#F2EAD2",
       description: "Gansu is the doorway to the Silk Road of China, where foreign trades have been ongoing for past 2500 years.",
       hover_color: "#D65F14",
-      //url: "http://facebook.com"
+      url: "10.html"
     },
     CHN1151: {
       name: "Qinghai",
@@ -107,13 +107,15 @@ var simplemaps_countrymap_mapdata={
       name: "Beijing",
       color: "#E04A3E",
       description: "Capital of China; Famous for the imperial food served for centuries.",
-      hover_color: "#D65F14"
+      hover_color: "#D65F14",
+      url: "9.html"
     },
     CHN1178: {
       name: "Fujian",
       color: "#F4EBD6",
       description: "Lychee in Fujian is the best unarguably.",
-      hover_color: "#D65F14"
+      hover_color: "#D65F14",
+      url: "12.html"
     },
     CHN1179: {
       name: "Anhui",
@@ -125,7 +127,8 @@ var simplemaps_countrymap_mapdata={
       name: "Guangdong",
       color: "#D8D079",
       description: "The homeland of Dimsum.",
-      hover_color: "#D65F14"
+      hover_color: "#D65F14",
+      url: "4.html"
     },
     CHN1662: {
       name: "Tibet",
@@ -143,7 +146,8 @@ var simplemaps_countrymap_mapdata={
       name: "Hainan",
       color: "#225353",
       description: "Hainan is like the Florida of China, but thankfully we do not have \"Florida Man\"",
-      hover_color: "#D65F14"
+      hover_color: "#D65F14",
+      url: "1.html"
     },
     CHN1803: {
       name: "Ningxia",
@@ -179,7 +183,8 @@ var simplemaps_countrymap_mapdata={
       name: "Sichuan",
       color: "#D1B96D",
       description: "This place is well-known for its spice.",
-      hover_color: "#D65F14"
+      hover_color: "#D65F14",
+      url: "6.html"
     },
     CHN1810: {
       name: "Yunnan",
@@ -215,7 +220,8 @@ var simplemaps_countrymap_mapdata={
       name: "Tianjin",
       color: "#320A24",
       description: "Tianjin people loves to sing and perform Opera.",
-      hover_color: "#D65F14"
+      hover_color: "#D65F14",
+      url: "5.html"
     },
     CHN1817: {
       name: "Jiangxi",
@@ -239,7 +245,8 @@ var simplemaps_countrymap_mapdata={
       name: "Zhejiang",
       color: "#A6CA83",
       description: "Being close to the sea, they are known for cooking the best seafood dishes.",
-      hover_color: "#D65F14"
+      hover_color: "#D65F14",
+      url: "2.html"
     },
     CHN1828: {
       name: "Jilin",
@@ -273,7 +280,8 @@ var simplemaps_countrymap_mapdata={
       lat: "39.928819",
       lng: "116.388869",
       name: "Beijing",
-      description: "Capital of China; Famous for the imperial food served for centuries."
+      description: "Capital of China; Famous for the imperial food served for centuries.",
+      url: "9.html"
     }
   },
   labels: {},
